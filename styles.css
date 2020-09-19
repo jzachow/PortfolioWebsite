@@ -1,0 +1,224 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+header {       
+    background-color: #333;  
+    font-family: Montserrat;     
+    width: 100%;
+    position: sticky; 
+    top: 0;
+}
+.main-nav {    
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+    margin-left: 30px;    
+}
+#nav-links{
+    width: 100%;
+}
+
+ul {
+    display: flex;   
+    justify-content: center;
+    list-style-type: none; 
+    color: lightgray; }
+
+ul li {
+    margin-right: 20px;
+    padding-right: 30px;     
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;  
+    color: lightgray; 
+}
+
+ul li a:hover{
+    border-bottom: 3px solid lightgray;    
+}
+
+.container {
+    padding-top: 50px;
+}
+
+#social-media {
+    display: flex; 
+    flex-direction: row;
+    height: 3vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;        
+}
+
+#social-media i{          
+    font-size: 3rem;      
+    color: #333;  
+    margin-right: 40px; 
+    margin-top: 40px;    
+}
+
+#landing {
+    height: 100vh;
+    background-image:  url(resources/pics/grand-rapids-dusk.jpg);
+    background-blend-mode: multiply;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: lightgrey;
+    background-size: cover;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 5px #000;
+}
+
+#landing h1, h3{
+    font-family: 'Josefin Sans';      
+    font-weight: bolder;
+}
+
+#landing h1{
+    font-size: 5rem;
+}
+
+#landing h3{
+    font-size: 2rem;
+}
+
+#down {
+    position: absolute;
+    top: 85vh;
+    padding: 20px;
+    font-size: 5rem;
+}
+
+#down:hover {
+    cursor: pointer;    
+    opacity: 0.8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-section {
+    font-size: 2rem;
+    border-bottom: solid 4px black;
+}
+
+#portfolio h3 {
+    border-bottom: solid 4px lightgray;
+}
+
+#about p{    
+    width: 70%;
+    margin-bottom: 30px;;
+}
+
+.tab {
+    padding-left: 2rem;
+}
+
+#portfolio {    
+    background-color: #333;
+    color: lightgray;
+}
+
+.cards {    
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+    width: 60%; 
+    flex-wrap: wrap;   
+    padding-bottom: 80px;  
+}
+
+.card {    
+    display: flex;
+    flex-direction: column;
+    flex-basis: 0;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    background-color:lightgray;
+    border-radius: 25px;
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .cards {
+        flex-direction: column;
+    }
+}
+.card-img {
+    max-width: 459px;
+    max-height: 394px;
+    margin: 0 auto;
+}
+
+.card a{
+    text-decoration: underline;
+    font-size: medium;
+    font-weight: bold;
+    color: black;  
+}
+
+#map img {
+    border-radius: 25px;
+    border: 2px solid lightgray;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+    
+}
+
+.contact-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+#contact-info{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;    
+    align-items: center;
+}
+
+#contact-info p {
+   margin-top: 5rem;
+}
+
+footer {
+    background-color: #333;
+    height: 4vh;
+    color: lightgray;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
