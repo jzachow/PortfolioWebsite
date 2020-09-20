@@ -6,17 +6,19 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <meta charset='utf-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfolio</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet'
         type='text/css'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
     <header>
-        <nav class="main-nav">
+        <nav class="main-nav nav justify-content-center">
             <div id="nav-links">
                 <ul>
                     <li><a href="#">HOME</a></li>
@@ -25,14 +27,19 @@
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
-        </nav>
+        </nav>        
     </header>
-    <div id="landing">
-        <h1>Justin Zachow</h1>
-        <h3>C# .NET DEVELOPER</h3>
-        <span id="down">&#8595</span>
+    <div id="landing-zone">
+        <div id="backdrop">
+            <img src="resources/pics/grand-rapids-dusk.png" class="img-fluid" />
+        </div>
+        <div id="landing">
+            <h1>Justin Zachow</h1>
+            <h3>C# .NET DEVELOPER</h3>
+            <span id="down">&#8595</span>
+        </div>
     </div>
-    <div id="about" class="container">
+    <div id="about" class="section-container">
         <h3 class="info-section">About Me</h3>
         <P><span class="tab">I am a C# .NET developer located in West Michigan. I was born in Greenville, MI, but have
                 lived in Grand
@@ -45,7 +52,7 @@
                 synthwave.</p>
         <p></p>
     </div>
-    <div id="portfolio" class="container">
+    <div id="portfolio" class="section-container">
         <h3 class="info-section">Portfolio</h3>
         <div class="cards">
             <div class="card">
@@ -65,7 +72,7 @@
             </div>
         </div>
     </div>
-    <div id="contact" class="container">
+    <div id="contact" class="section-container">
         <h3 class="info-section">Contact</h3>
         <div class="contact-section">
             <div id="map">
