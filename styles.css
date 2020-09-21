@@ -49,12 +49,7 @@ ul li a {
     padding-top: 60px;
 }
 
-.section-container h3{
-    font-family: Montserrat, monospace !important;
-}
-.section-container p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+
 
 #landing-zone {
     height: 100vh;
@@ -133,6 +128,7 @@ ul li a {
 }
 
 .info-section {
+    font-family: Montserrat;
     font-size: 2rem;
     border-bottom: solid 4px black;
 }
