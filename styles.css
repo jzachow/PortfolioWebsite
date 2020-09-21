@@ -50,7 +50,7 @@ ul li a {
 }
 
 .section-container h3{
-    font-family: Montserrat;
+    font-family: Montserrat, monospace !important;
 }
 .section-container p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
