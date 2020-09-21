@@ -35,7 +35,7 @@
     </header>
 
 
-    <div id="landing-zone">
+    <div id="landing-zone" class="container-fluid">
         <div id="backdrop">
             <img src="resources/pics/grand-rapids-dusk.png" class="img-fluid" />
         </div>
@@ -45,7 +45,7 @@
             <span id="down">&#8595</span>
         </div>
     </div>
-    <div id="about" class="section-container">
+    <div id="about" class="section-container container-fluid">
         <h3 class="info-section">About Me</h3>
         <P><span class="tab">I am a C# .NET developer located in West Michigan. I was born in Greenville, MI, but
                 have
@@ -60,28 +60,48 @@
                 synthwave.</p>
         <p></p>
     </div>
-    <div id="portfolio" class="section-container">
+    <div id="portfolio" class="section-container container-fluid">
         <h3 class="info-section">Portfolio</h3>
+
         <div class="cards">
-            <div class="card">
-                <img src="resources/pics/minesweeper.PNG" alt="Picture of Minesweeper game" class="card-img">
-                <a href="https://github.com/jzachow/ConsoleMinesweeper">
-                    <h1 class="card-title">Minesweeper</h1>
-                </a>
-                <p>A console version of the classic Minesweeper game.</p>
+            <div class="card w-33 m-5">
+                <img class="card-img-top img-fluid" src="resources/pics/minesweeper.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Minesweeper</h5>
+                    <p class="card-text">A console version of the classic Minesweeper game.</p>
+                    <a href="https://github.com/jzachow/ConsoleMinesweeper" class="btn btn-dark">github</a>
+                </div>
             </div>
 
-            <div class="card">
-                <img src="resources/pics/snakegame.PNG" alt="Picture of Minesweeper game" class="card-img">
-                <a href="https://github.com/jzachow/SnakeGame">
-                    <h1 class="card-title">Snake Game(In Progress)</h1>
-                </a>
-                <p>A console version of the classic Snake Game</p>
-            </div>
+            <div class="card w-33 m-5">
+                <img class="card-img-top img-fluid" src="resources/pics/snakegame.PNG" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Snake Game(In Progress)</h5>
+                    <p class="card-text">A console version of the classic Minesweeper game.</p>
+                    <a href="https://github.com/jzachow/SnakeGame" class="btn btn-dark">github</a>
+                </div>
+            </div>           
         </div>
+
+
+
     </div>
     <div id="contact" class="section-container">
         <h3 class="info-section">Contact</h3>
+
+        <div class="card w-33 m-3 p-5 bg-dark text-light text-center">
+            <img class="card-img-top img-fluid" src="resources/pics/grand-rapids-map.PNG" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">I'd love to hear from you.</h5>
+                <p class="card-text">Get in touch with me via any of the tools below.</p>
+                <div id="social-media">
+                    <a href="mailto:justin.zachow@gmail.com"><i class="fa fa-paper-plane"></i></a>
+                    <i class="fa fa-linkedin"></i>
+                    <a href="https://github.com/jzachow"><i class="fa fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        <!--
         <div class="contact-section">
             <div id="map">
                 <img src="resources/pics/grand-rapids-map.PNG" alt="map of Grand Rapids, MI" />
@@ -96,6 +116,7 @@
                 </div>
             </div>
         </div>
+    -->
     </div>
 
 
