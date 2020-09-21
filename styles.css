@@ -108,9 +108,10 @@ ul li a {
 
 #down {
     position: absolute;
-    top: 85vh;
+    top: 75vh;
     padding: 20px;
     font-size: 5rem;
+    margin-bottom: 60px;
 }
 
 #down:hover {
