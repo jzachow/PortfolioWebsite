@@ -49,6 +49,12 @@ ul li a {
     padding-top: 60px;
 }
 
+.section-container h3{
+    font-family: Montserrat;
+}
+.section-container p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 #landing-zone {
     height: 100vh;
@@ -108,7 +114,7 @@ ul li a {
 
 #down {
     position: absolute;
-    top: 75vh;
+    top: 70%;
     padding: 20px;
     font-size: 5rem;
     margin-bottom: 60px;
