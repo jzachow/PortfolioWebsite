@@ -17,10 +17,7 @@ header {
     top: 0;
     z-index: 1;
 }
-.main-nav {    
-    display: flex;
-    justify-content: center;
-    align-items: center;      
+.main-nav {        
     margin-left: 30px;    
 }
 #nav-links{
@@ -28,8 +25,7 @@ header {
     height: 100%;    
 }
 
-ul {   
-    display: flex;    
+ul {          
     list-style-type: none; 
     color: lightgray;    
 }
