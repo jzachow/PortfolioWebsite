@@ -127,6 +127,25 @@ ul li a {
     align-items: center;
 }
 
+
+#headshot { 
+    width: 100%;
+}
+
+#aboutMe {
+    width: 100%;
+}
+
+#aboutMe p {
+    text-align: center;
+}
+
+
+#headshot img {       
+    border-radius: 40%;
+    border: 3px solid lightgray;    
+}
+
 .info-section {
     font-family: Montserrat;
     font-size: 2rem;
@@ -137,8 +156,7 @@ ul li a {
     border-bottom: solid 4px lightgray;
 }
 
-#about p{    
-    width: 70%;
+#about p{        
     margin-bottom: 30px;;
 }
 
